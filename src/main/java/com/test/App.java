@@ -5,6 +5,12 @@ package com.test;
  */
 public class App {
     public static void main(String[] arg){
-        System.out.println("Horld");
+       int num;
+       num=100;
+        System.out.println("This variable is num: " + num);
+        num=num*2;
+        System.out.print("Variable's value num*2 is ");
+        System.out.println(num);
     }
 }
+
