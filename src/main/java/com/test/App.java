@@ -5,18 +5,18 @@ package com.test;
  */
 public class App {
     public static void main(String args[]){
-        int lightspeed;
-        int days;
-        int second;
-        int distance;
-        // приблизительная скорость света
-        lightspeed=186000;
-        days= 1000;
-        second=days*24*60*60;
-        distance=lightspeed*second;
-        System.out.print("For "+ days);
-        System.out.print(" days light went about ");
-        System.out.println(distance + " mile");
+     byte b;
+     int i=257;
+     double d=323.142;
+     System.out.println("\n change int to byte ");
+     b=(byte) i;
+     System.out.println("i and b " + i + " " + b);
+     System.out.println("change double to int ");
+     i=(int)d;
+     System.out.println("d and i " + d + " " + i);
+     System.out.println("change double to byte ");
+     b=(byte)d;
+     System.out.println("d and b " + d + " " + b);
         }
 
 }
