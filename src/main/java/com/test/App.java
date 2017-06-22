@@ -5,12 +5,24 @@ package com.test;
  */
 public class App {
     public static void main(String[] arg){
-       int num;
-       num=100;
-        System.out.println("This variable is num: " + num);
-        num=num*2;
-        System.out.print("Variable's value num*2 is ");
-        System.out.println(num);
+       int x, y;
+       x=10;
+       y=20;
+       if(x<y)System.out.println("x<y");
+        x=x*2;
+        if(x==y) System.out.println("x=y");
+        x=x*2;
+        if (x>y) System.out.println("x>y");
+        if (x==y)System.out.println("You will not see this massage");
+
+        for (x=0;x<5;x++)
+        {System.out.println("Value x=" + x);}
+        System.out.println("Value x=" + x);
+        for (x=0;x<10;x++){
+            System.out.println("Value xx=" + x);
+            System.out.println("Value y=" + y);
+            y=y-2;
+        }
     }
 }
 
